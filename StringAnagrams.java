@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+//Idea is to use hashmap to keep track of order string frequenices
+//and use Sliding window technique to keep track of frequency counts and update them
+// during traversal
+
+//Time Complexity: O(m+n)
+//Space Complexity: O(1)
 public class StringAnagrams {
    public List<Integer> findAnagrams(String s, String p)
    {
